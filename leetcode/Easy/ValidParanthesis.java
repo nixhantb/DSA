@@ -14,9 +14,6 @@ public class ValidParanthesis {
                 continue;
             }
 
-
-           
-
             else {
                char a;
                 switch (s.charAt(i)) {
