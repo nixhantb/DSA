@@ -17,7 +17,7 @@ public class NStairs {
         if(a[n] != 0){
             return a[n];
         }
-       
+       // test
 
         a[n]=solver(n-1, a)+solver(n-2, a);
         return a[n];
